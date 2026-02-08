@@ -1,7 +1,7 @@
 using { ust.myapp as my } from '../db/schema';
 
 
-service CatalogService @(path: 'CatalogService'){
+service CatalogService @(path: 'CatalogS'){
 
     entity salesorder @(odata.draft.enabled: true) as projection on my.SalesOrders{
         *,
