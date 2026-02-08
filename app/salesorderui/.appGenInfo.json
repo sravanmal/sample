@@ -1,0 +1,33 @@
+{
+  "generationParameters": {
+    "generationDate": "Fri Aug 01 2025 14:28:09 GMT+0000 (Coordinated Universal Time)",
+    "generatorPlatform": "SAP Business Application Studio",
+    "serviceType": "Local CAP",
+    "metadataFilename": "",
+    "serviceUrl": "http://localhost:4004/odata/v4/CatalogService/",
+    "appName": "salesorderui",
+    "appTitle": "A Fiori UI for Sales Order ",
+    "appDescription": "An SAP Fiori application.",
+    "appNamespace": "sravan.ust",
+    "ui5Theme": "sap_horizon",
+    "ui5Version": "1.138.1",
+    "enableCodeAssist": false,
+    "enableEslint": false,
+    "enableTypeScript": false,
+    "showMockDataInfo": false,
+    "generatorVersion": "1.18.4",
+    "template": "List Report Page V4",
+    "generatorName": "SAP Fiori Application Generator",
+    "entityRelatedConfig": [
+      {
+        "type": "Main Entity",
+        "value": "salesorder"
+      },
+      {
+        "type": "Navigation Entity",
+        "value": "items"
+      }
+    ],
+    "launchText": "To launch the generated app, start your CAP project:  and navigate to the following location in your browser:\n\nhttp://localhost:4004/salesorderui/webapp/index.html"
+  }
+}
